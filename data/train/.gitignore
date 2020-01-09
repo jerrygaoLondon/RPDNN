@@ -1,0 +1,11 @@
+### put your train dataset in the directory but do not upload to git repository
+### Tips: you can save your dataset anywhere in your PC and set a shortcut/symlink in this directory
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+*
+!.gitignore
+!readme.md

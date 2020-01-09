@@ -1,0 +1,10 @@
+### This is  the output directory where rumour DNN model files will be archived
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+*
+!.gitignore
+!readme.md

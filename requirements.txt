@@ -1,0 +1,21 @@
+#embeddings
+
+pandas>=0.23.4
+# install in MacOS need to do `CFLAGS=-stdlib=libc++ pip install allennlp`
+#   see also https://github.com/src-d/tmsc/issues/7
+#only works with allennlp(0.8.2)
+allennlp==0.8.2
+tqdm>=4.31.1
+gensim
+# install from https://github.com/allenai/bilm-tf
+# tensorflow
+# tensorflow-gpu==1.2
+h5py
+# bilm-tf
+
+# need stopwords, nltk.download('stopwords')
+nltk
+overrides
+#need download spacy model "en-core-web-sm-2.0.0" via python -m spacy download en_core_web_sm
+regex==2018.01.10
+#spacy==2.0.18

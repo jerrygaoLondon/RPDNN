@@ -1,0 +1,11 @@
+### put pre-trained language model in the directory but do not upload to git repository
+### Tips: you can save your model file anywhere locally and set a shortcut/symlink in this directory for the model ("elmo_credbank_2x4096_512_2048cnn_2xhighway_weights_10052019.hdf5")
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+*.lnk
+.gitignore
+!.gitignore

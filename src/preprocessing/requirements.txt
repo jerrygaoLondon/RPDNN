@@ -1,0 +1,9 @@
+#credbank preprocessing
+
+gensim
+pandas
+# install from https://github.com/allenai/bilm-tf
+# tensorflow
+# tensorflow-gpu==1.2
+h5py
+bilm-tf

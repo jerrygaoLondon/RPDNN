@@ -1,0 +1,17 @@
+### put your train dataset in the directory but do not upload to git repository
+### the context directory expected to be the top directory of one or more subdirectory containing events dataset directories (inc. 'rumours' and 'non-rumours'), see format of PHEME dataset for details
+### we are using PHEME 6392078 dataset
+### "all-rnr-annotated-threads" link contains original context dataset in 6392078 released by PHEME which only contains replies in 'reactions' directory
+### "all-rnr-annotated-threads-with-retweets" link is postprocessed by Sooji that contains additional retweets in 'reaction' directory
+
+### Tips: you can save your dataset anywhere in your PC and set a shortcut/symlink in this directory for social context corpus 
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+*.lnk
+*
+!.gitignore
+!readme.md
