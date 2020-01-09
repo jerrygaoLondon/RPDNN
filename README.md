@@ -5,8 +5,7 @@ This repository contains code for the paper "RP-DNN: A Tweet level propagation c
 
 ## Dataset
 
-The LOO-CV and CV dataset (train set, validation set and test set) are available at our [figshare project site](https://figshare.shef.ac.uk/articles/Trained_RPDNN_LOO-CV_models_for_early_rumor_detection/11558520) (shef.data.11558520.v1)
- and http://staffwww.dcs.shef.ac.uk/people/J.Gao/RPDNN/data/
+The LOO-CV and CV dataset (train set, validation set and test set) are available at our http://staffwww.dcs.shef.ac.uk/people/J.Gao/RPDNN/data/
 
 For all the social context corpus (12 events in total) used in this paper, please download them from https://zenodo.org/record/3249977 and https://figshare.com/articles/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078
 
@@ -15,7 +14,8 @@ For all the social context corpus (12 events in total) used in this paper, pleas
 
 Our models are developed with Allennlp framework.
 
-The trained models reported in our paper is available at http://staffwww.dcs.shef.ac.uk/people/J.Gao/RPDNN/models/
+The trained models reported in our paper is available at [figshare project site](https://figshare.shef.ac.uk/articles/Trained_RPDNN_LOO-CV_models_for_early_rumor_detection/11558520) (shef.data.11558520.v1)
+ and http://staffwww.dcs.shef.ac.uk/people/J.Gao/RPDNN/models/
 
 Due to limited quote of available sapce, we release full model and context-only model now.
 
