@@ -17,7 +17,7 @@ Our models are developed with Allennlp framework.
 The trained models reported in our paper is available at [figshare project site](https://figshare.shef.ac.uk/articles/Trained_RPDNN_LOO-CV_models_for_early_rumor_detection/11558520) (shef.data.11558520.v1)
  and http://staffwww.dcs.shef.ac.uk/people/J.Gao/RPDNN/models/
 
-Due to limited quote of available sapce, we release full model and context-only model now.
+Due to limited quote of available space, we release full model and context-only model now.
 
 If you are interested in all the models, please contact us.
 
