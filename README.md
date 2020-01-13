@@ -56,7 +56,12 @@ To use our source code either for training or for loading pre-trained RPDNN mode
 a) ELMo model;
 
 It is recommended to set symlink for elmo model in ```resource/elmo_model/```. Please see a template script 
-```symlink_elmo_model.sh``` in the root directory. Alternatively, you can also copy latest model file into this directory
+```symlink_elmo_model.sh``` in the root directory. Alternatively, you can also copy latest model file into this directory. The fine-tuned ELMo can be dowloaded via http://staffwww.dcs.shef.ac.uk/people/J.Gao/data/elmo_credbank/elmo_credbank_2x4096_512_2048cnn_2xhighway_weights_10052019.hdf5 (see details in https://github.com/soojihan/Multitask4Veracity).
+
+Please cite our following paper if you are using this model in your research.
+
+_Han S., Gao, J., Ciravegna, F. (2019). "Data Augmentation for Rumor Detection Using Context-Sensitive Neural Language Model With Large-Scale Credibility Corpus", Seventh International Conference on Learning Representations (ICLR) LLD,New Orleans, Louisiana, US
+
 
 b) social context corpus; 
 
