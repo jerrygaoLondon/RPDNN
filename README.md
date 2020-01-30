@@ -51,7 +51,7 @@ All setting steps can optionally be done in a virtual environment using tools su
 
 ### Setting of dependent resource
 
-To use our source code either for training or for loading pre-trained RPDNN model, you need to setup two important resource.
+Prerequisite: To use our source code either for training or for loading pre-trained RPDNN model, you need to setup two important resource.
 
 a) ELMo model;
 
