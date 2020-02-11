@@ -2,7 +2,7 @@
 This repository contains code for the paper "RP-DNN: A Tweet level propagation context based deep neural networks for early rumor detection in Social Media" By J. Gao, S. Han, X. Song, etc
 
 
-This paper has been accepted for an Oral presentation at the 12th International Conference on Language Resources and Evaluation:
+This paper has been accepted for an Oral presentation at the [12th International Conference on Language Resources and Evaluation](https://lrec2020.lrec-conf.org/en/):
 
 
 
