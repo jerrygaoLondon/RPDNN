@@ -121,6 +121,6 @@ python /RPDNN/src/rumour_dnn_evaluator.py -t /data/loocv_set_20191002/ferguson/a
 
 ## Contact
 
-* [Jie Gao](http://staffwww.dcs.shef.ac.uk/people/J.Gao/)
+* [Jie Gao](https://jerrygaolondon.github.io/)
 
 * [Sooji Han](https://soojihan.github.io/)
