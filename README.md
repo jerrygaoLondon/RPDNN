@@ -8,7 +8,7 @@ This paper has been accepted for an Oral presentation at the [12th International
 
 ## Dataset
 
-The LOO-CV and CV dataset (train set, validation set and test set) are available at our http://staffwww.dcs.shef.ac.uk/people/J.Gao/RPDNN/data/
+The LOO-CV and CV rumor source dataset (train set, validation set and test set) are available at our in "data/cv_dataset".
 
 For all the social context corpus (12 events in total) used in this paper, please download them from https://zenodo.org/record/3249977 and https://figshare.com/articles/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078
 
@@ -17,12 +17,11 @@ For all the social context corpus (12 events in total) used in this paper, pleas
 
 Our models are developed with Allennlp framework.
 
-The trained models reported in our paper is available at [figshare project site](https://figshare.shef.ac.uk/articles/Trained_RPDNN_LOO-CV_models_for_early_rumor_detection/11558520) (shef.data.11558520.v1)
- and http://staffwww.dcs.shef.ac.uk/people/J.Gao/RPDNN/models/
+The trained models reported in our paper is available at [figshare project site](https://figshare.shef.ac.uk/articles/Trained_RPDNN_LOO-CV_models_for_early_rumor_detection/11558520) (shef.data.11558520.v1).
 
-Due to limited quote of available space, we release full model and context-only model now.
+Due to limited quote of available space, we release full model only.
 
-If you are interested in all the models, please contact us.
+If you are interested in other models examined in our experiment, please contact us.
 
 ## General settings
 
