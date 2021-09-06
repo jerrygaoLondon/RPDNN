@@ -118,7 +118,8 @@ class HierarchicalAttentionNet(nn.Module):
             #a = a * mask
             # eij[~mask] = float("-inf") # this is inplace operation of mask filling, -inf can also be -1e32
             # use out-of-place version to fill mask value (inplace operation is not allowed for gradient computation)
-            eij = eij.masked_fill((1 - mask).byte(), float("-inf"))
+            # eij = eij.masked_fill((1 - mask).byte(), float("-inf"))
+            eij = eij.masked_fill(~mask, float("-inf"))
             # print("weights after masking: ", eij)
 
         # use softmax to predict a probability distribution (called attention weights) over the sequence elements
