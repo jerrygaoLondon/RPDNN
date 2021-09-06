@@ -318,6 +318,25 @@ def evaluate(model: Model,
             output_dict = model(**batch)
             loss = output_dict.get("loss")
 
+            ############ Comment out this block to save class_probabilities, logits, and losses for each batch #########
+            # print(output_dict['class_probabilities'].shape)
+            # import copy
+            #
+            # newoutput_dict = copy.deepcopy(output_dict)
+            # newoutput_dict['class_probabilities'] = newoutput_dict['class_probabilities'].cpu().data.numpy()
+            # newoutput_dict['logits'] = newoutput_dict['logits'].cpu().data.numpy()
+            # newoutput_dict['loss'] = newoutput_dict['loss'].cpu().data.numpy()
+            #
+            # output_file = os.path.join(os.path.dirname(__file__), '..', "data", "test",
+            #                            str(batch_count) + "_output.pkl")
+            # import json
+            # import pickle
+            # if output_file:
+            #     with open(output_file, "wb") as file:
+            #         pickle.dump(newoutput_dict, file)
+            #     file.close()
+            # ###########################################################################################################
+
             metrics = model.get_metrics()
 
             if loss is not None:
