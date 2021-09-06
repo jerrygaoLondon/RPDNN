@@ -275,7 +275,8 @@ def load_matrix_from_csv(fname, start_col_index, end_col_index, delimiter=',', e
 
     df = pd.read_csv(fname, header=header, delimiter=delimiter, quoting=csv.QUOTE_MINIMAL,
                      usecols=range(start_col_index, end_col_index), lineterminator='\n',
-                     encoding=encoding).as_matrix()
+                     encoding=encoding).values
+
     return df
 
 
