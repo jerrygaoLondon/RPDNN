@@ -4,12 +4,11 @@ This repository contains code for the paper "RP-DNN: A Tweet level propagation c
 
 This paper has been accepted for an Oral presentation at the [12th International Conference on Language Resources and Evaluation](https://lrec2020.lrec-conf.org/en/):
 
-Depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/3-system-architecture)
 
 <p>
 <img width="1210" alt="RP-DNN Repo High Level Overview" src="https://github.com/user-attachments/assets/c67a0e7d-0f68-4bc1-89ec-bfaa2ee94802" />
 </p>
-<em></em>High-level overview of the repo</em> Depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/3-system-architecture)
+<em>High-level overview of the repo</em> Depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/3-system-architecture)
 
 ## Dataset
 
