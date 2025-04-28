@@ -12,6 +12,14 @@ The LOO-CV and CV rumor source dataset (train set, validation set and test set) 
 
 For all the social context corpus (12 events in total) used in this paper, please download them from https://zenodo.org/record/3249977 and https://figshare.com/articles/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078
 
+<p>
+ <img width="1232" alt="RPDNN Dataset Organization" src="https://github.com/user-attachments/assets/6eaea88d-403c-40dd-854d-ea5eae0d57f7" />
+
+</p>
+<p>
+ <em>Dataset Organization depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/4-datasets)</em>
+</p>
+
 
 ## Trained Models
 
@@ -116,7 +124,12 @@ Example usage:
 ```$ssh
 python /RPDNN/src/rumour_dnn_evaluator.py -t /data/loocv_set_20191002/ferguson/all_rnr_test_set_combined.csv -m /model/RPDNN_model_output_201910/full/ferguson_full201910121555 -g 0 -f -1 --max_cxt_size 200
 ```
-
+<p>
+<img width="679" alt="Evaluation Workflow of RPDNN" src="https://github.com/user-attachments/assets/f01ec4f4-b693-4d58-ae88-7f46463d55fe" />
+</p>
+<p>
+ <em>Evaluation Data Flow Diagram depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/7-evaluation-process) </em>
+</p>
 
 ## Contact
 
