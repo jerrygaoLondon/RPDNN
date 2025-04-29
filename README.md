@@ -5,10 +5,8 @@ This repository contains code for the paper "RP-DNN: A Tweet level propagation c
 This paper has been accepted for an Oral presentation at the [12th International Conference on Language Resources and Evaluation](https://lrec2020.lrec-conf.org/en/):
 
 
-<p>
-<img width="1210" alt="RP-DNN Repo High Level Overview" src="https://github.com/user-attachments/assets/c67a0e7d-0f68-4bc1-89ec-bfaa2ee94802" />
-</p>
-<em>High-level overview of the repo</em> Depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/3-system-architecture)
+![](https://github.com/user-attachments/assets/c67a0e7d-0f68-4bc1-89ec-bfaa2ee94802)
+*High-level overview of the repo Depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/3-system-architecture)*
 
 ## Dataset
 
@@ -16,14 +14,8 @@ The LOO-CV and CV rumor source dataset (train set, validation set and test set) 
 
 For all the social context corpus (12 events in total) used in this paper, please download them from https://zenodo.org/record/3249977 and https://figshare.com/articles/PHEME_dataset_for_Rumour_Detection_and_Veracity_Classification/6392078
 
-<p>
- <img width="1232" alt="RPDNN Dataset Organization" src="https://github.com/user-attachments/assets/6eaea88d-403c-40dd-854d-ea5eae0d57f7" />
-
-</p>
-<p>
- <em>Dataset Organization depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/4-datasets)</em>
-</p>
-
+![](https://github.com/user-attachments/assets/6eaea88d-403c-40dd-854d-ea5eae0d57f7)
+*Dataset Organization depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/4-datasets)*
 
 ## Trained Models
 
@@ -34,6 +26,11 @@ The trained models reported in our paper is available at [figshare project site]
 Due to limited quote of available space, we release full model only.
 
 If you are interested in other models examined in our experiment, please contact us.
+
+
+![](https://github.com/user-attachments/assets/ddc4dd08-56a1-45a5-b3ff-efb3892ae468)
+*RP-DNN model architecture diagram decipted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/5.1-rp-dnn-model)*
+
 
 ## General settings
 
@@ -128,12 +125,9 @@ Example usage:
 ```$ssh
 python /RPDNN/src/rumour_dnn_evaluator.py -t /data/loocv_set_20191002/ferguson/all_rnr_test_set_combined.csv -m /model/RPDNN_model_output_201910/full/ferguson_full201910121555 -g 0 -f -1 --max_cxt_size 200
 ```
-<p>
-<img width="679" alt="Evaluation Workflow of RPDNN" src="https://github.com/user-attachments/assets/f01ec4f4-b693-4d58-ae88-7f46463d55fe" />
-</p>
-<p>
- <em>Evaluation Data Flow Diagram depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/7-evaluation-process) </em>
-</p>
+
+![](https://github.com/user-attachments/assets/f01ec4f4-b693-4d58-ae88-7f46463d55fe)
+*Evaluation Data Flow Diagram depicted by [DeepWiki](https://deepwiki.com/jerrygaoLondon/RPDNN/7-evaluation-process)*
 
 ## Contact
 
